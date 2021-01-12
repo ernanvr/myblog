@@ -38,6 +38,10 @@ p {
   padding: 1rem;
 }
 
+img {
+  width: 100%;
+}
+
 #tagline {
   font-size: 1rem;
   font-weight: normal;
