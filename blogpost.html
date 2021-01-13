@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>This is the title of the blogpost</title>
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <div id="container">
-      <div id="cabecera">
-        HyperBlogpost 2.0
-        <span id="tagline">Bienvenido al mejor blog de internet</span>
-      </div>
-      <div id="post">
-        <h1>This is the atractive post title</h1>
-        <p>
-          This is the paragraph where we can show what interesting things you
-          can do with git branches
-        </p>
-        <img
-          src="https://drive.google.com/uc?export=download&id=1u_vV_MhLgycRPrnFDBRJaolfNw0hu6ZY"
-          alt=""
-        />
-        <p>
-          Blogs are the best way to share your ideas and much better than
-          conferences unless you were a rockstar, but you aren't by now
-        </p>
-        <p>Subscribe and like</p>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>This is the title of the blogpost</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <script src="https://kit.fontawesome.com/625fc00c69.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <a id="logo" href="/blogpost.html">Logotipo</a>
+    <nav id="nav" class="hide">
+      <a href="/blogpost.html">Inicio</a>
+      <a href="#image">Imagen</a>
+      <a href="#footer">Pie de página</a>
+      <a href="/about.html">Sobre Nosotros</a>
+    </nav>
+    <i id="menu" class="fas fa-bars menu"></i>
+  </header>
+  <main id="container">
+    <div id="post">
+      <h1>This is the atractive post title</h1>
+      <p>
+        This is the paragraph where we can show what interesting things you
+        can do with git branches
+      </p>
+      <img id="image" src="https://drive.google.com/uc?export=download&id=1u_vV_MhLgycRPrnFDBRJaolfNw0hu6ZY" alt="" />
+      <p>
+        Blogs are the best way to share your ideas and much better than
+        conferences unless you were a rockstar, but you aren't by now
+      </p>
+      <p>Subscribe and like</p>
     </div>
-  </body>
+  </main>
+  <footer id="footer">
+    <p>Copyright ® <span id="authors">@Carlosa1Gomez & @ernanv</span></p>
+  </footer>
+  <script src="/code.js"></script>
+</body>
+
 </html>

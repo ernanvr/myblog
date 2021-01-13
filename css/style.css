@@ -3,48 +3,80 @@
   margin: 0;
   padding: 0;
 }
-
+html{
+  font-size: 62.5%;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
 body {
-  background-color: gray;
-  color: blue;
-  text-align: left;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-#container {
-  width: 70%;
-  padding: 1rem;
-  text-align: left;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #33a;
+  padding: 10px;
+  font-size: 1.6rem;
+  color: #fff;
+}
+#logo{
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(245, 200, 133);
+}
+.hide{
+  display: none;
+}
+.show{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  top: 51px;
+  width: 250px;
+  background-color: rgba(57, 57, 189, 0.863)
+}
+.show a{
+  width: 100%;
+  height: fit-content;
+}
+nav a{
+  padding: 20px;
+}
+nav a:hover{
+  background-color: rgb(85, 85, 167);
+}
+.menu {
+  font-size: 2.6rem;
+}
+main {
   border: 1px solid #ddd;
   margin: 0 auto;
-  font-size: 2rem;
-  background-color: white;
+  font-size: 1.4rem;
 }
-
-#container h1 {
+h1 {
   font-size: 2.5rem;
 }
-
-#cabecera {
-  background: #33a;
-  color: white;
-  font-weight: bold;
-  font-size: 3rem;
-  padding: 1rem;
-  box-shadow: 9px 13px 5px -1px rgba(212, 200, 212, 1);
-  margin-bottom: 1rem;
-}
-
-h1,
-p {
-  padding: 1rem;
-}
-
-img {
-  width: 100%;
+#image {
+  margin: auto;
+  width: 70%;
 }
 
 #tagline {
   font-size: 1rem;
   font-weight: normal;
+}
+footer{
+  background: #33a;
+  color: white;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+#authors{
+  color: yellow;
 }
