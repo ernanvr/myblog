@@ -1,5 +1,6 @@
-const button = document.getElementById("menu");
+const btnmenu = document.getElementById("menu");
+const slide = document.getElementById("nav");
 
-button.onclick = function () {
-    document.getElementById("nav").classList.toggle("show");
+btnmenu.onclick = function () {
+    slide.classList.toggle("show");
 }

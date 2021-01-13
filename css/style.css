@@ -27,7 +27,7 @@ header {
   font-weight: 700;
   color: rgb(245, 200, 133);
 }
-.hide{
+nav{
   display: none;
 }
 .show{
@@ -38,7 +38,8 @@ header {
   right: 0;
   top: 51px;
   width: 250px;
-  background-color: rgba(57, 57, 189, 0.863)
+  background-color: rgba(57, 57, 189, 1);
+
 }
 .show a{
   width: 100%;
@@ -50,7 +51,7 @@ nav a{
 nav a:hover{
   background-color: rgb(85, 85, 167);
 }
-.menu {
+i{
   font-size: 2.6rem;
 }
 main {
